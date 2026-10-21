@@ -4,7 +4,11 @@ A game of Checkers in Python and Pygame where you play against a computer oppone
 
 ![A mid-game position: red pieces against the Minimax-controlled white pieces](docs/images/screenshot.png)
 
-## Run it
+## Play in the browser
+
+**[Play it live](https://shreyask06.github.io/checkerAiPy/)**: the same `main.py` compiled to WebAssembly with [pygbag](https://github.com/pygame-web/pygbag) and deployed by GitHub Actions on every push to `main` (the first load downloads the Python runtime, so give it a few seconds, then click the page to start).
+
+## Run it locally
 
 Requires Python 3.9+.
 
