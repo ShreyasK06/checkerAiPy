@@ -1,3 +1,4 @@
+import os
 
 import pygame
 
@@ -12,5 +13,5 @@ BLACK = (0, 0, 0)
 BLUE = (0, 0, 255)
 GREY = (128, 128, 128)
 
-CROWN = pygame.transform.scale(pygame.image.load(
-    'D:\Code\MyWebsite\CheckersAI\CheckersAI\crown.png'), (44, 25))
+CROWN_PATH = os.path.join(os.path.dirname(__file__), 'crown.png')
+CROWN = pygame.transform.scale(pygame.image.load(CROWN_PATH), (44, 25))
